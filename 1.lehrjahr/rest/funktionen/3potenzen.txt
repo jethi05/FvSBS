@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+# schreibe einen Exponenten Rechner
+a = 2
+b = 2
+def exponenten_rechner(zahl_eins, zahl_zwei):
+    ergebnis = zahl_eins ** zahl_zwei
+    return ergebnis
+print(exponenten_rechner(a,b))
+
+derwert = "haah".replace(" ", "").lower()
+def palindrom(wert):
+    return wert==wert[::-1]
+print(palindrom(derwert))
