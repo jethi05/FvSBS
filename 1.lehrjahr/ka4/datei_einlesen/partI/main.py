@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 '''Dieses Programm dient dazu, die Personen pro KM^2 je Bundesland Wohnen'''
-ERSTE_ZEILE = True
 with open("bundeslaender.csv", "r", encoding="utf8") as file:
     lines = file.readlines()
 with open("bundeslaender_erweitert.csv", "w", encoding="utf8") as end_file:
