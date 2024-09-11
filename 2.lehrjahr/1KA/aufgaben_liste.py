@@ -46,47 +46,64 @@ for r in obst:
 
 # Erstelle eine Liste zahlen die die Zahlen von 1 bis 100 enthält. Nutze hierzu for i in range()
 # und füge jedes einzelne Element hinten an deine Liste.
-
+nummern = []
+for i in range(1,101,1):
+    nummern.append(i)
 # Gib die Anzahl der Elemente aus.
-
+print(len(nummern))
 # Nutze die Slicing-Notation liste[start:stop:step] für die folgenden Aufgaben
 # https://stackoverflow.com/questions/509211/how-slicing-in-python-works
 
 # Gib die gesamte Liste aus.
-
+print(nummern[::1])
 # Gib die Liste bis zum vorletzten Element aus.
-
+print(nummern[:99:1])
 # Gib die Liste bis zum fünften Element von Hinten aus.
-
-# Gib alle Elemente zwischen den Indizes 25 und 35 (inklusive) aus.
-
+print(nummern[:-5:1])
+# Gib alle Elemente zwischen den Indizes 25 und 35 (inklusive) aus
+print(nummern[24:35:1])
 # Gib jedes zweite Element aus.
-
+print(nummern[::2])
 # Gib jedes fünfte Element bis zum Index 80 (exklusive) aus.
-
+print(nummern[:79:5])
 # Gib die Liste rückwärts aus.
-
+print(nummern[::-1])
 
 # Aufgabe 3 Listen durchlaufen
 
 # Erstelle die Liste messwerte = [22.86, 20.39, 23.76, 21.34, 24.32]
-
+messwerte = [22.86, 20.39, 23.76, 21.34, 24.32]
 # Durchlaufe die Liste ein Mal und ermittle dabei minimum, maximum und summe.
 # Nutze dabei NICHT die Funktionen min(), max(), sum().
 # Gib Minimum, Maximum, Summe und Durchschnitt aus.
-
+minimum = messwerte[0]
+maximum = 0
+summe_zahlen = 0
+for r in messwerte:
+    if r > maximum:
+        maximum = r
+    elif r < minimum:
+        minimum = r
+    summe_zahlen += r
+print(f"Minimum {minimum}\nMaximum {maximum}\nDurchschnitt {summe_zahlen/len(messwerte)}")
 # Aufgabe 4 Listen und Strings
 
 # Zerschneide den String "Schneider;Fischer;Seemann;Schmied;Müller" in eine Liste berufe.
-
 # Sortiere die Liste berufe.
-
+string = "Schneider;Fischer;Seemann;Schmied;Müller"
+berufe = []
+berufe = string.strip().split(";")
+berufe.sort()
 # Füge die Liste zu einem String mit dem Trennzeichen | zusammen.
-
-
+string_mit_trennzeichen = "|".join(berufe)
 # Aufgabe 4 Verschachtelte Listen
 
 # Gegeben ist die verschachtelte Liste matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
 # Schreibe eine Funktion, die die Summe aller Zahlen in der Matrix berechnet. Hierzu bekommt sie
 # die Matrix als Parameter und liefert die Summe zurück.
-
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+summe_matrix = 0
+for liste in matrix:
+    for matrix_zahlen in liste:
+        summe_matrix += matrix_zahlen
+print(f"Ergebnis Matrix: {summe_matrix}")
