@@ -55,9 +55,9 @@ print(len(nummern))
 # https://stackoverflow.com/questions/509211/how-slicing-in-python-works
 
 # Gib die gesamte Liste aus.
-print(nummern[::1])
+print(nummern[::])
 # Gib die Liste bis zum vorletzten Element aus.
-print(nummern[:99:1])
+print(nummern[:-1:1])
 # Gib die Liste bis zum fünften Element von Hinten aus.
 print(nummern[:-5:1])
 # Gib alle Elemente zwischen den Indizes 25 und 35 (inklusive) aus
