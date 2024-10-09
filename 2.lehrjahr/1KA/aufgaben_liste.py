@@ -101,11 +101,20 @@ string_mit_trennzeichen = "|".join(berufe)
 # Gegeben ist die verschachtelte Liste matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
 # Schreibe eine Funktion, die die Summe aller Zahlen in der Matrix berechnet. Hierzu bekommt sie
 # die Matrix als Parameter und liefert die Summe zurück.
+<<<<<<< HEAD
 liste = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 def summe_berechnen(matrix):
+=======
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+ def calc_summe_matrix(matrix):
+>>>>>>> 280edf8faff420ee2112a5f65137323cc656c092
     summe_matrix = 0
     for liste in matrix:
         for matrix_zahlen in liste:
             summe_matrix += matrix_zahlen
     return summe_matrix
+<<<<<<< HEAD
 print(summe_berechnen(liste))
+=======
+print(f"Ergebnis Matrix: {calc_summe_matrix(matrix)}")
+>>>>>>> 280edf8faff420ee2112a5f65137323cc656c092
