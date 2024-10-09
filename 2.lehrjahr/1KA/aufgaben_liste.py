@@ -77,7 +77,7 @@ messwerte = [22.86, 20.39, 23.76, 21.34, 24.32]
 # Nutze dabei NICHT die Funktionen min(), max(), sum().
 # Gib Minimum, Maximum, Summe und Durchschnitt aus.
 minimum = messwerte[0]
-maximum = 0
+maximum = messwerte[0]
 summe_zahlen = 0
 for r in messwerte:
     if r > maximum:
@@ -101,9 +101,11 @@ string_mit_trennzeichen = "|".join(berufe)
 # Gegeben ist die verschachtelte Liste matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
 # Schreibe eine Funktion, die die Summe aller Zahlen in der Matrix berechnet. Hierzu bekommt sie
 # die Matrix als Parameter und liefert die Summe zurück.
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-summe_matrix = 0
-for liste in matrix:
-    for matrix_zahlen in liste:
-        summe_matrix += matrix_zahlen
-print(f"Ergebnis Matrix: {summe_matrix}")
+liste = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+def summe_berechnen(matrix):
+    summe_matrix = 0
+    for liste in matrix:
+        for matrix_zahlen in liste:
+            summe_matrix += matrix_zahlen
+    return summe_matrix
+print(summe_berechnen(liste))

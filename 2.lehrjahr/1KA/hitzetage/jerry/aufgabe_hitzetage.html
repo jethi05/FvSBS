@@ -1,0 +1,109 @@
+<p>Als Hitzetag (auch “Heißer Tag”, “Tropentag”) werden Tage bezeichnet,
+an denen eine Lufttemperatur von &gt;= 30°C gemessen wird.</p>
+<p>Die Datei hitzetage.txt enthält die Anzahl gemessener Hitzetage pro
+Jahr und Region. Orientierungshilfe: Die Datei hitzetage.ods enthält
+alle Daten die im Endprodukt der folgenden Aufgaben enthalten sind.</p>
+<p><strong>Aufgaben</strong></p>
+<ol type="A">
+<li>Erweitere die Daten um die Spalte “Mittel” und speichere sie in
+einer neuen Datei. Gehe dazu wie folgt vor:</li>
+</ol>
+<ol type="1">
+<li><p>Schreibe die Funktion berechne_mittelwert(), die eine Liste mit
+Zahlenwerten als Strings erhält und den Mittelwert (auch: Durchschnitt,
+Mittel) dieser Werte als String zurückliefert. Prüfe die Funktion mit
+folgenden Werten:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(berechne_mittelwert([<span class="st">&quot;12&quot;</span>, <span class="st">&quot;8&quot;</span>, <span class="st">&quot;10&quot;</span>])) <span class="co"># --&gt; &quot;10.0&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(berechne_mittelwert([<span class="st">&quot;1&quot;</span>, <span class="st">&quot;2&quot;</span>])) <span class="co"># --&gt; &quot;1.5&quot;</span></span></code></pre></div></li>
+<li><p>Schreibe einen Programmteil, der den Inhalt der Datei
+hitzetage.txt liest und in eine neue Datei hitzetage_erweitert.txt
+schreibt.</p></li>
+<li><p>Zerlege den Dateiinhalt so, dass du für jedes Jahr eine Liste mit
+den gemessenen Hitzetagen erhältst. Überprüfe dein Ergebnis mit dem
+Debugger und der Variablenansicht (“View”, “Variables”).<br />
+Benötigte Werkzeuge:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">str</span>.split()</span></code></pre></div>
+<p>Berechne mit Hilfe der Funktion berechne_mittelwert() den
+Durchschnitt für jedes Jahr und hänge ihn ans Ende der jeweiligen Liste
+mit den gemessenen Hitzetagen.<br />
+Benötigte Werkzeuge: list.append()</p></li>
+<li><p>Konvertiere die erweiterte Liste für jedes Jahr zu einem
+semikolongetrennten String. Sorge dafür, dass der String für jedes Jahr
+nach Ablauf der for-Schleife im Speicher ist.<br />
+Benötigte Werkzeuge: str.join()</p></li>
+<li><p>Erweitere die Kopfzeile um die Spalte “Mittel” und füge die in
+den vorigen Aufgaben erweiterten Zeilen für jedes Jahr hinzu.<br />
+Benötigte Werkzeuge: str.join(), Konkatenation</p></li>
+<li><p>Schreibe das Ergebnis in die Datei
+hitzetage_erweitert.txt</p></li>
+<li><p>Speichere dein bisheriges Programm in die Datei
+hitzetage_a.py</p></li>
+</ol>
+<ol start="2" type="A">
+<li>Erweitere die Daten um die Fußzeile “Durchschnitt”, die in jeder
+Spalte den Mittelwert für jede Region über alle Jahre enthält. Gehe dazu
+wie folgt vor:</li>
+</ol>
+<ol type="1">
+<li>Dupliziere die Datei hitzetage_a.py unter dem namen hitzetage_b.py
+und öffne sie mit der IDE (z.B. Thonny oder Spyder).</li>
+<li>Gib alle Messwerte von “Brandenburg/Berlin” zeilenweise auf der
+Konsole aus. Durchlaufe und zerlege den Dateiinhalt von hitzetage.txt
+dazu so, dass du für jedes Jahr den Messwert von “Brandenburg/Berlin”
+isoliert an print() übergeben kannst.</li>
+<li>Ändere das Programm aus der vorigen Aufgabe so ab, dass die
+Messwerte von “Brandenburg/Berlin” nicht mehr ausgegeben werden, sondern
+in eine neue Liste gespeichert werden.</li>
+<li>Berechne den Durchschnitt für “Brandenburg/Berlin” mit Hilfe der
+Funktion berechne_mittelwert() aus Aufgabe A) und füge das Ergebnis in
+eine neue Liste mit dem Namen fusszeile_durchschnitt.</li>
+<li>Berechne den jeweiligen Durchschnitt über alle Jahre für alle
+weiteren Regionen und füge ihn jeweils an die Liste
+fusszeile_durchschnitt.</li>
+<li>Setze das Attribut “Durchschnitt” an den Beginn von
+fusszeile_durchschnitt und schreibe die neue Zeile als String ans Ende
+der Datei hitzetage_erweitert.txt</li>
+</ol>
+<ol start="3" type="A">
+<li>Der Mittelwert ist zwar präzise, doch kann er von Ausreißern
+verfälscht werden. Aus diesem Grund wird oft der robustere Median
+(Zentralwert) hinzugezogen um Datenreihen zu interpretieren. Erweitere
+die Ausgabedatei um die Zeile “Median” und die Spalte “Quartil”. Gehe
+hierzu wie folgt vor:</li>
+</ol>
+<ol type="1">
+<li><p>Der Median steht in der Mitte einer sortierten Folge. Schreibe
+die Funktion berechne_median() die eine Liste von Zahlenwerten als
+Strings bekommt und den Median als String liefert [Siehe Video: <a
+href="">Median erklärt</a>, auch am Ende dieses Texts]. Prüfe die
+Funktion mit folgenden Testwerten:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>berechne_median([<span class="st">&quot;1&quot;</span>, <span class="st">&quot;2&quot;</span>, <span class="st">&quot;100&quot;</span>]) <span class="co"># --&gt; &quot;2&quot;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>berechne_median([<span class="st">&quot;100&quot;</span>, <span class="st">&quot;1&quot;</span>, <span class="st">&quot;2&quot;</span>]) <span class="co"># --&gt; &quot;2&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>berechne_median([<span class="st">&quot;10&quot;</span>, <span class="st">&quot;1&quot;</span>]) <span class="co"># --&gt; &quot;5.5&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>berechne_median([<span class="st">&quot;100&quot;</span>, <span class="st">&quot;200&quot;</span>, <span class="st">&quot;3&quot;</span>, <span class="st">&quot;50&quot;</span>]) <span class="co"># --&gt; &quot;75.0&quot;</span></span></code></pre></div>
+<p>Benötigte Werkzeuge:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>, <span class="bu">int</span>(<span class="bu">str</span>), <span class="bu">list</span>.append()</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">list</span>.sort() oder <span class="bu">sorted</span>(<span class="bu">list</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>, <span class="op">//</span>, <span class="bu">str</span>(<span class="bu">int</span>)</span></code></pre></div></li>
+<li><p>Berechne den Median über alle Jahre für jede Spalte (jede Region
+und den Mittelwert).</p></li>
+<li><p>Füge unten eine Zeile mit dem Median für jede Spalte an, setze an
+ihren Beginn das Wort “Median”.</p></li>
+<li><p>Der Wertebereich über dem Median heißt “oberes Quartil” und der
+Wertebereich unter dem Median heißt “unteres Quartil”. Bestimme für
+jedes Jahr ob der <strong>Mittelwert</strong> im oberen Quartil oder im
+unteren Quartil liegt. Nimm als Referenzwert den Median der Mittelwerte
+aller Jahre (dieser steht in der Tabelle unten rechts).</p></li>
+<li><p>Erweitere die Ausgabedatei um die Spalte “Quartil”. Liegt der
+Wert für ein Jahr über dem Median der Mittelwerte aller Jahre, ist der
+Wert für das Jahr “oberes”, liegt er darunter, ist der Wert für das Jahr
+“unteres”. Wenn der Wert identisch mit dem Median ist, ist der Wert
+“Median”.</p></li>
+</ol>
+<p><a href="https://www.youtube.com/watch?v=-zOaiuB6RVs"
+class="uri">https://www.youtube.com/watch?v=-zOaiuB6RVs</a></p>
