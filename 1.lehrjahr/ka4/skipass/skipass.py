@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 def gefahrene_laenge(pass_id):
     sum = 0
     with open("LogSkipass", "r") as file:

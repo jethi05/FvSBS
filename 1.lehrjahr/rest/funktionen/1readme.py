@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#! /usr/bin/python3
 # EIne FUnktion hat einen ein und einen Ausgang
 # EIne FUnktion löst sich zu ihrem Rückgabe Wert auf
 '''
@@ -13,8 +13,8 @@ DUe PArameter in den Klammern bilden den Funktionseingang
 Das Ergebnis der Funktion wird an die Aufrufsstelle geliefert.
 Der Aufruf löst sich zum Ergebniswert auf.
 
-für Aufrufer ist 
-laenge =  len("Hallo") 
+für Aufrufer ist
+laenge =  len("Hallo")
 leange = 5
 
 Eine FUnktion ist ein Programmstück, das anderen Programmstücken
