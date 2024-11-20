@@ -1,6 +1,6 @@
 Übung:
 
-![image.png](.pictures/1024-431.png)
+![image.png](pictures/1024-431.png)
 
 Gib 
 
@@ -11,6 +11,7 @@ Mother(id, name, age, address)
 Child(id, name, **mother_id**)
 
 Der Fremdschlüssel verbirgt sich implizit in der Grafik und muss ins Relationenschema!CSV
+![ermloesung](pictures/erm_picture.png)
 
 ```csv
 id,name,adresse,bestellnummer
