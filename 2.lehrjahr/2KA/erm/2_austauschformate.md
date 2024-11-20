@@ -1,16 +1,4 @@
-Übung:
-
-![image.png](.pictures/1024-431.png)
-
-Gib 
-
- das Relationenschema aller Tabellen an:
-
-Mother(id, name, age, address)
-
-Child(id, name, **mother_id**)
-
-Der Fremdschlüssel verbirgt sich implizit in der Grafik und muss ins Relationenschema!CSV
+CSV
 
 ```csv
 id,name,adresse,bestellnummer
