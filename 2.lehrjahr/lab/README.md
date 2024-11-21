@@ -1,3 +1,5 @@
 # Labor KA 1
-|Hallo ||
+|Hallo | |
+|-----|--|
 | ist das  | eine | tabelle? |
+
