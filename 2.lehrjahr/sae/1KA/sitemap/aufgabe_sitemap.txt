@@ -1,0 +1,11 @@
+Die Datei sitemap.txt enthält Links der Schulwebsite. Diese müssen angepasst werden.
+
+0. Lies die Datei in Python ein und speichere die veränderten Daten in sitemap_neu.txt
+
+Schreibe sinnvolle Funktionen um alle folgenden Änderungen zu bewirken:
+
+1. Die Domain hat sich in holzschule-calw.de geändert. Ändere alle nötigen Einträge.
+2. Statt "stupla" heißt das Verzeichnis nun "stundenplan". Ändere alle nötigen Einträge.
+3. Statt "ausflg" heißt das Verzeichnis nun "exkursion". Ändere alle nötigen Einträge.
+4. Sämtliche Bilder liegen nun als .webp-Datei statt als .jpg-Datei vor. Ändere alle nötigen Einträge.
+5. Die Struktur von "news" hat sich geändert. Statt "/main/2024/09/news/tag_der_offenen_tuer.html" soll "/main/news/2024/09/tag_der_offenen_tuer.html" genutzt werden. Ändere alle nötigen Einträge.

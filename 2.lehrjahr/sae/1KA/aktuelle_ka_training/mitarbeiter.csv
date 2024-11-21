@@ -1,0 +1,11 @@
+mitarbeiter_id;name;abteilung;gehalt;arbeitsstunden;teilzeit
+10123;Anna Müller;Vertrieb;4500;160;Nein
+20456;Max Schmidt;IT;5200;170;Nein
+30281;Julia Bauer;Marketing;3000;120;Ja
+40275;Tom Fischer;IT;4800;160;Nein
+50432;Laura Weber;Vertrieb;3500;140;Ja
+60194;Felix Wagner;Buchhaltung;4000;150;Ja
+70283;Sophie Klein;Marketing;2700;110;Ja
+80347;Jan Richter;Buchhaltung;4500;160;Nein
+90214;Nina Schulz;IT;5300;175;Nein
+10031;Lisa Neumann;Vertrieb;3200;130;Ja
