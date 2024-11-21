@@ -44,3 +44,6 @@ werden Zeit und Resourcen gespart
 
 ## Patchkabel / Crossoverkabel
 ![Bild von Crossoverkabel](pictures/crossover.png)
+
+## Permanent Link - Channel Link
+![Permanent Link - Channel Link](pictures/permanent_channel_link.png)
