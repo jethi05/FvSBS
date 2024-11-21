@@ -18,10 +18,11 @@ Cat. 7A
 - Bezeichnungssystem nach **ISO/IEC-11801(2002)E**: XX/YZZ
 
 
-| Gruppe                            | Buchstabe | Beschreibung              |
-| --------------------------------- | --------- | ------------------------- |
-| XX steht für die Gesamtschirmung  | U         | Ohne Schirm (Ungeschirmt) |
-|                                   | F         | Folienschirm              |
-|                                   | S         | Geflechtschirm            |
-|                                   | SF        | Geflecht- und Folienschirm|
-
+| Gruppe/Buchstabe                  | Beschreibung               |
+| --------------------------------- | -------------------------- |
+| XX steht für die Gesamtschirmung  |                            |                                   
+| U                                 | Ohne Schirm (Ungeschirmt)  |
+| F                                 | Folienschirm               |
+| S                                 | Geflechtschirm             |
+| SF                                | Geflecht- und Folienschirm |
+    
