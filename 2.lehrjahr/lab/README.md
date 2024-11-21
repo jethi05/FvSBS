@@ -17,7 +17,7 @@ Cat. 7A
 - Es gibt die KAtegorien 1 bis 7
 - Bezeichnungssystem nach **ISO/IEC-11801(2002)E**: XX/YZZ
 | Gruppe                            | Buchstabe | Beschreibung |
-| ----------------------------------| --------- | ------------ |
+| --------------------------------- | --------- | ------------ |
 | XX steht für die Gesammtschirmung | U | Ohne Schirm (Ungeschirmt)
 |                                   | F | Folierschirm |
 |                                   | S | Geflcehtschirm |
