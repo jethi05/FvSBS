@@ -43,4 +43,4 @@ Durch den Aufbau des LSA-Anschlusses können Kabel direkt hineingedrückt werden
 werden Zeit und Resourcen gespart
 
 ## Patchkabel / Crossoverkabel
-!(Bild von Crossoverkabel)[pictures/crossover.png]
+![Bild von Crossoverkabel](pictures/crossover.png)
