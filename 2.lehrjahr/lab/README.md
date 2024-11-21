@@ -1,4 +1,4 @@
-# lABOR KA 1
+# Labor KA 1
 Hi, ich habe probiert alles Klassenarbeit relevante zusammen zu schreiben :)
 ## Kategorien und Klassen
 | EIA/TIA 568 | ISO/IEC 11801 | EN 50173 | max. Frequenz | Impedanz | Anwendung |
@@ -32,10 +32,11 @@ Cat. 7A
 | S                                 | Geflchetschirm             |
 | ZZ steht **immer** für:           |                            |
 | TP                                | Twisted Pair               |
+
 in unserem Projekt wurde ein S/FTP-Kabel verwendet. In der Klassenarbeit
 kann zum Beispiel folgendes kommen: Zeichne eine Leitung die so beschriftet ist: SF/UTP
 
-## LSA-LSA Anschlusstechnik
+## LSA-Anschlusstechnik
 
 ![LSA_Bild](pictures/LSA_Anschlusstechnik.jpg)
 LSA steht für Lötfrei, Schraubfrei und Abisolierfrei! \
