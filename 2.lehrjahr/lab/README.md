@@ -1,4 +1,4 @@
-# Labor KA 1
+# lABOR KA 1
 Hi, ich habe probiert alles Klassenarbeit relevante zusammen zu schreiben :)
 ## Kategorien und Klassen
 | EIA/TIA 568 | ISO/IEC 11801 | EN 50173 | max. Frequenz | Impedanz | Anwendung |
@@ -16,11 +16,12 @@ Cat. 7A
 - Kupferkabel mit gekreutzten, verdrillten bzw. verseilten Adernpaaren
 - Es gibt die KAtegorien 1 bis 7
 - Bezeichnungssystem nach **ISO/IEC-11801(2002)E**: XX/YZZ
-| Gruppe                            | Buchstabe | Beschreibung |
-| --------------------------------- | --------- | ------------ |
-| XX steht für die Gesammtschirmung | U | Ohne Schirm (Ungeschirmt)
-|                                   | F | Folierschirm |
-|                                   | S | Geflcehtschirm |
-|                                   | SF | Geflecht- und Folienschirm |
 
+
+| Gruppe                            | Buchstabe | Beschreibung              |
+| --------------------------------- | --------- | ------------------------- |
+| XX steht für die Gesamtschirmung  | U         | Ohne Schirm (Ungeschirmt) |
+|                                   | F         | Folienschirm              |
+|                                   | S         | Geflechtschirm            |
+|                                   | SF        | Geflecht- und Folienschirm|
 
