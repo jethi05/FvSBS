@@ -37,3 +37,7 @@ kann zum Beispiel folgendes kommen: Zeichne eine Leitung die so beschriftet ist:
 ## LSA-LSA Anschlusstechnik
 
 ![LSA_Bild](pictures/LSA_Anschlusstechnik.jpg)
+LSA steht für Lötfrei, Schraubfrei und Abisolierfrei! \
+Alte Anschlüsse mussten abisoliert werden, weil alte Verbindungen mit Schrauben gemacht wurden.
+Durch den Aufbau des LSA-Anschlusses können Kabel direkt hineingedrückt werden. Daruch
+werden Zeit und Resourcen gespart
