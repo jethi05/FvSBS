@@ -36,4 +36,4 @@ kann zum Beispiel folgendes kommen: Zeichne eine Leitung die so beschriftet ist:
 
 ## LSA-LSA Anschlusstechnik
 
-![LSA_Bild](LSA_Anschlusstechnik.jpg)
+![LSA_Bild](pictures/LSA_Anschlusstechnik.jpg)
