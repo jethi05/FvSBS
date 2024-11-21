@@ -16,11 +16,11 @@ Cat. 7A
 - Kupferkabel mit gekreutzten, verdrillten bzw. verseilten Adernpaaren
 - Es gibt die KAtegorien 1 bis 7
 - Bezeichnungssystem nach **ISO/IEC-11801(2002)E**: XX/YZZ
-| Gruppe | Buchstabe | Beschreibung |
+| Gruppe                            | Buchstabe | Beschreibung |
 | ----------------------------------| --------- | ------------ |
 | XX steht für die Gesammtschirmung | U | Ohne Schirm (Ungeschirmt)
-| | F | Folierschirm |
-| | S | Geflcehtschirm |
-| | SF | Geflecht- und Folienschirm |
+|                                   | F | Folierschirm |
+|                                   | S | Geflcehtschirm |
+|                                   | SF | Geflecht- und Folienschirm |
 
 
