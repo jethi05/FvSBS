@@ -20,9 +20,20 @@ Cat. 7A
 
 | Gruppe/Buchstabe                  | Beschreibung               |
 | --------------------------------- | -------------------------- |
-| XX steht für die Gesamtschirmung  |                            |                                   
+| XX steht für die Gesamtschirmung: |                            |                                   
 | U                                 | Ohne Schirm (Ungeschirmt)  |
 | F                                 | Folienschirm               |
 | S                                 | Geflechtschirm             |
 | SF                                | Geflecht- und Folienschirm |
-    
+| Y steht für die Aderschirmung:    |                            |
+| U                                 | Ohne Schirm (Ungeschirmt)  |
+| F                                 | Folienschirm               |
+| S                                 | Geflchetschirm             |
+| ZZ steht **immer** für:           |                            |
+| TP                                | Twisted Pair               |
+in unserem Projekt wurde ein S/FTP-Kabel verwendet. In der Klassenarbeit
+kann zum Beispiel folgendes kommen: Zeichne eine Leitung die so beschriftet ist: SF/UTP
+
+## LSA-LSA Anschlusstechnik
+
+![LSA_Bild](LSA_Anschlusstechnik.jpg)
