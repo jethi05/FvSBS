@@ -49,3 +49,5 @@ werden Zeit und Resourcen gespart
 
 ## Permanent Link - Channel Link
 ![Permanent Link - Channel Link](pictures/permanent_channel_link.png)
+>[!CAUTION]
+>Ich übernehme keine Garantie darüber, dass das alles hier stimmt!
