@@ -12,7 +12,7 @@ Child(id, name, **mother_id**)
 
 Der Fremdschlüssel verbirgt sich implizit in der Grafik und muss ins Relationenschema!CSV
 ![ermloesung](pictures/erm_picture.png)
-
+CSV
 ```csv
 id,name,adresse,bestellnummer
 1,Max Mustermann,Musterstraße 1,12345
