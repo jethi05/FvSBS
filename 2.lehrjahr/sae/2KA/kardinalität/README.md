@@ -46,18 +46,6 @@ Die Kardinalität wird oft durch **Fremdschlüssel** und Tabellenstrukturen darg
 
 ---
 
-## Kardinalität in der Datenmodellierung
-
-In Entity-Relationship-Diagrammen (ERD) wird die Kardinalität durch Symbole dargestellt:
-- Ein Strich `|` für "eins".
-- Ein Kringel `O` für "null oder mehr".
-- Eine Krähe `>` für "viele".
-
-**Beispiel für eine 1:N-Beziehung im ERD**:
-
-
----
-
 ## Praktische Bedeutung
 
 - Kardinalität hilft, Datenbankanfragen zu optimieren und Abhängigkeiten zwischen Tabellen zu definieren.
