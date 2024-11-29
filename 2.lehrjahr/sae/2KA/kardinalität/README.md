@@ -12,7 +12,7 @@ Jeder Datensatz in Tabelle A ist mit höchstens einem Datensatz in Tabelle B ver
 - **Anwendung**: Wird verwendet, wenn Informationen in zwei Tabellen aufgeteilt werden sollen, z. B. aus Sicherheitsgründen.
 
 **Darstellung**:
-
+![Bild](https://help.tableau.com/current/pro/desktop/de-de/Img/1-1.png)
 ---
 
 ### 2. Eins-zu-Viele (1:N)
