@@ -22,7 +22,7 @@ Ein Datensatz in Tabelle A kann mit mehreren Datensätzen in Tabelle B verknüpf
 - **Anwendung**: Häufigstes Muster in relationalen Datenbanken, z. B. bei hierarchischen Beziehungen.
 
 **Darstellung**:
-
+![Bild](https://help.tableau.com/current/pro/desktop/de-de/Img/1-M.png)
 ---
 
 ### 3. Viele-zu-Viele (M:N)
@@ -32,6 +32,7 @@ Ein Datensatz in Tabelle A kann mit mehreren Datensätzen in Tabelle B verknüpf
 - **Anwendung**: Erfordert oft eine **Zwischentabelle** (Join-Tabelle), die die Beziehungen speichert.
 
 **Darstellung**:
+![Bild](https://help.tableau.com/current/pro/desktop/de-de/Img/M-M.png)
 
 
 ---
