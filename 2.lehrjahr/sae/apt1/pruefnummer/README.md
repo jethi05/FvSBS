@@ -11,7 +11,7 @@ Es wird Summe und Stelle definiert um keine For Schleife machen zu müssen, da d
 ```
     summe = 0
     stelle = 0
-```{python}
+```
 In der `for`-Schleife wird die Liste auseinander genommen, in dem Array, der Liste, wird der erste Eintrag genommen, daher, dass die zehnte Stelle nur die Prüfsumme ist, wird diese nicht genommen, daher dass `[:9:]`
     for zahl in liste[0][:9:]:
         stelle += 1
