@@ -7,8 +7,8 @@ def flugpreise(pnutzlast, pentfernung):
         else:
             preis_nutzlast=7
         gesamtpreis = preis_nutzlast + pentfernung * 0.4
-        return f"Gesamtpries des Transportes {gesamtpreis}"
+        print(f"Gesamtpries des Transportes {gesamtpreis}")
     else:
-        return "Mit diesen Angaben ist ein Drohnentransport nicht möglich"
+        print("Mit diesen Angaben ist ein Drohnentransport nicht möglich")
 
-print(flugpreise(13, 26))
+print(flugpreise(3, 5))
