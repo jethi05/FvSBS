@@ -53,7 +53,7 @@ Hier werden Dienstleistungen verbracht
 ```
 Amortisationsdauer = Anschaffungskosten / Gewinn
 ```
-![Link](https://fachinformatikerpruefungsvorbereitung.de/abschlusspr%C3%BCfungteil1/wirtschaft/amortisationsrechnung/)
+[Link](https://fachinformatikerpruefungsvorbereitung.de/abschlusspr%C3%BCfungteil1/wirtschaft/amortisationsrechnung/)
 # Angebotsvergleich
 - Quantitiv
     - Bezugspreis
