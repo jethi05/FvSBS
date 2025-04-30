@@ -20,3 +20,25 @@ Danach kann dies folgender maßen aufgerufen werden
 ```{python}
 rotstift = Stift("rot")
 rotstift.schreibe("Hallo Klasse")
+
+## Aufgabe 2
+```
+class Tier:                                                                     
+     def __init__(self, laut):                                                   
+         self.laut = laut                                                        
+     def gib_laut(self):                                                         
+         print(f"Tier gibt laut {self.laut}")                                    
+hund = Tier("Wuff")                                                             
+hund.gib_laut()                                                                 
+katze = Tier("Miau")                                                            
+katze.gib_laut()
+```
+
+Katze kann auch "Gehackt" werden, indem auf die Variable zugegriffen wird
+```
+
+print(katze.laut)
+katze.laut= "Quieck"
+katze.gib_laut()
+```
+

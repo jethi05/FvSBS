@@ -21,3 +21,11 @@ class Tier:
         print(f"Tier gibt laut {self.laut}")
 hund = Tier("Wuff")
 hund.gib_laut()
+
+katze = Tier("Miau")
+katze.gib_laut()
+
+# Katze hacken
+print(katze.laut)
+katze.laut = "Quieck"
+katze.gib_laut()
