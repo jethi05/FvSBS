@@ -27,5 +27,5 @@ katze.gib_laut()
 
 # Katze hacken
 print(katze.laut)
-katze.laut = "Quieck"
+katze.laut: str = "Quieck"
 katze.gib_laut()

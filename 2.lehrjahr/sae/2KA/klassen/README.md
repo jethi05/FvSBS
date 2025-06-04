@@ -42,3 +42,14 @@ katze.laut= "Quieck"
 katze.gib_laut()
 ```
 
+gekapselte Attribute == zwei Unterstriche?
+set = gibt was ein
+get = gibt was aus
+
+Convention |  Example     |  Meaning
+------------|-------------|------------
+Single leading underscore  | _variable  | Indicates that the name is meant for internal use only
+Single trailing underscore | class_  | Avoids naming conflicts with Python keywords and built-in names
+Double leading underscore  |  __attribute |    Triggers name mangling in the context of Python classes
+Double leading and trailing underscore  | __name__  |  Indicates special attributes and methods that Python provides
+Single underscore |  _  | Indicates a temporary or throwaway variable
