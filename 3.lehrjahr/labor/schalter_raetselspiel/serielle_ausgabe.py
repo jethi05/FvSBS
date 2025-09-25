@@ -13,11 +13,8 @@ esp = serial.Serial(
 )  # COM-Port anpassen
 time.sleep(2)  # ESP32 braucht etwas Zeit zum Starten
 
-esp.write(b"Daten \n")
-
 random_digit = str(random.randint(0,1)) + str(random.randint(0,1)) + str(random.randint(0,1)) + str(random.randint(0,1)) + str(random.randint(0,1))
 print(random_digit)
-
 
 esp.write(f"Start game\n".encode())
 while True:
