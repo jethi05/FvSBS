@@ -12,8 +12,7 @@ import paho.mqtt.client as mqtt
 # connecte den Clinet
 
 def on_connect(client, userdata, flags, rc):
-    client.subscribe("test/topic")
-    client.subscribe("fvs/e3fi/geisler/switches") # Topic mit meinem Namen abonnieren
+    client.subscribe("fvs/e3fi/meisler/switches") # Topic mit meinem Namen abonnieren
 
 
 
@@ -33,7 +32,7 @@ client.on_message = on_message
 client.connect("mqtt01.pn.steinbeis.schule", 1883,60) # Broker verbinden
 
 # Publish a message
-client.publish("fvs/e3fi/geisler/response", "Hallo Welt") # Nachricht senden
+client.publish("fvs/e3fi/meisler/switches", "00100") # Nachricht senden
 
 # Blocking call that processes network traffic, dispatches callbacks
 client.loop_forever()
